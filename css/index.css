@@ -1,0 +1,124 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    user-select:none;
+
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 1720px;
+    text-align: center;
+    margin:0 auto;
+}
+#logo{
+    margin-top:60px;
+    margin-bottom: 10px;
+}
+.content{
+    display: flex;
+    padding:0 300px;
+}
+.idea_box{
+    border-radius: 30px;
+    height: 200px;
+    margin: 10px;
+    flex:1;
+    line-height: 200px;
+}
+.idea_box span{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.6;
+}
+.idea_box:hover span{
+    color: white;
+    opacity: 2;
+}
+
+#p_explain{
+    margin-bottom: 50px !important;
+    font-size: 20px;
+}
+
+#nav_bar{
+    width: 380px;
+    height: 100px;
+    margin: 0 auto;
+    bottom: 50px;
+    margin-top: 100px;
+    border-radius: 80px;
+    line-height: 125px;
+    box-shadow: 0px 3px 8px 2px rgba(163, 163, 163, 0.5);
+}
+#nav_bar img{
+    margin: 0 25px ;
+    
+}
+
+
+
+#idea_sth{
+    background-color: #f4f4f4;
+}
+#idea_sth:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/sixhat_background.png');
+    background-size: 400px;
+}
+
+
+
+
+#idea_ms{
+    background-color: #fff3d4;
+}
+#idea_ms:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../img/sentence_background.png');
+    background-size: 340px;
+}
+
+S
+#idea_wh{
+    background-color: #ffe4d4;
+}
+#idea_wh:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../img/5w1h_background.png');
+    background-size: 350px;
+}
+
+
+#idea_sc{
+    background-color: #fff3d4;
+
+}
+#idea_sc:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/scamper_background.png');
+    background-size: 360px;
+}
+
+
+#idea_mtp{
+    background-color: #ffe4d4;
+}
+#idea_mtp:hover{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('../img/metapo_background.png');
+    background-size: 360px;
+}
+
+
+#idea_eg{
+    background-color: #fff9ea;
+}
+#idea_eg:hover{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/exg_background.png');
+    background-size: 360px;
+}
