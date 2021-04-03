@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <link href="css/SixThinkingHat.css" rel="stylesheet" type="text/css" />
-    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
 
     <title>Aha-SixThinkingHat</title>
+    <script>
+        $(document).ready(function(){
+			$('#header,#menu').hover(function(){
+				$('#menu').slideDown('fast')
+			});
+            $('#content').not('#menu').hover(function(){
+				$('#menu').slideUp('fast')
+			});
+		});
+
+    </script>
 </head>
 <body>
     <div id="header">
@@ -56,6 +69,18 @@
             <p>전개가 잘 되고 있는지 검토하고 결론을 내린다.</p>
         </div>
         
+    </div>
+
+    <div id="menu">
+        <a href="index.html" ><img src="img/logo.png" id="logo" width="175px"></a>
+        <ul>
+            <li><a href="SixThinkingHat.html">Six Thinking Hat</a></li>
+            <li><a href="Make_Sentences.html">Make Sentences</a></li>
+            <li><a href="5W1H.html">5W1H</a></li>
+            <li><a href="SCAMPER.html">SCAMPER</a></li>
+            <li><a href="Metapo.html">Metapo</a></li>
+            <li><a href="Exaggerate.html">Exaggerate</a></li>
+        </ul>
     </div>
     <div id="nav_bar">
         <a href="#"><img src="img/icon_mypage.png" height="32px"></a>
