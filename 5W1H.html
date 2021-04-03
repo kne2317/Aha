@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/Make_Sentences.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+
+    <title>Aha - 5W1H</title>
+    <script>
+        $(document).ready(function(){
+			$('#header,#menu').hover(function(){
+				$('#menu').slideDown('fast')
+			});
+            $('#content').not('#menu').hover(function(){
+				$('#menu').slideUp('fast')
+			});
+		});
+
+    </script>
+</head>
+<body>
+    <div id="header">
+        <p>5W1H</p>
+    </div>
+    <div id="content">
+
+        <div>
+            <h1>문장 만들기</h1>
+            <p>
+                누가(who)? 무엇을(what)? 언제(when)? 어디서(where)? 왜(why)? 어떻게(how)?에 대한 대답을 <br>
+                찾아봄으로써 영감과 아이디어를 얻는다. 단, Why 라는 질문은 조심해서 사용할 것. <br>
+                <br>
+                가장 자주 묻는 질문이기도 하지만 제일 쓸모 없는 질문이기도 하다.<br>
+            </p>
+        </div>
+        
+    </div>
+
+    <div id="menu">
+        <a href="index.html" ><img src="img/logo.png" id="logo" width="175px"></a>
+        <ul>
+            <li><a href="SixThinkingHat.html">Six Thinking Hat</a></li>
+            <li><a href="Make_Sentences.html">Make Sentences</a></li>
+            <li><a href="5W1H.html">5W1H</a></li>
+            <li><a href="SCAMPER.html">SCAMPER</a></li>
+            <li><a href="Metapo.html">Metapo</a></li>
+            <li><a href="Exaggerate.html">Exaggerate</a></li>
+        </ul>
+    </div>
+    <div id="nav_bar">
+        <a href="#"><img src="img/icon_mypage.png" height="32px"></a>
+        <a href="#"><img src="img/icon_memo.png" width="40px"></a>
+        <a href="#"><img src="img/icon_mindmap.png"  height="35.06px"></a>
+    </div>
+    
+</body>
+</html>
