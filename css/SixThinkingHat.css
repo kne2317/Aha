@@ -54,16 +54,17 @@ h1{
     font-size: 21px;
 }
 #menu{
-    background-color: black;
+    background-color: white;
     width: 500px;
     height: 100%;
-    color: white;
+    color: rgba(0, 0, 0, 0.4);
     position:fixed;
     top: 0;
     right:0;
     z-index: 2;
     padding-top: 100px;
     display: none;
+    border-left: 1px solid #c2c2c2;
 }
 li{
     height: 100px;
@@ -73,7 +74,7 @@ li{
     margin-bottom: 40px;
 }
 li a{
-    color: white;
+   color: rgba(0, 0, 0, 0.4);
 }
 li a:hover{
     color:#F35C5C;
