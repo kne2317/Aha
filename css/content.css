@@ -3,9 +3,35 @@
     width: 100%;
     height: 400px;
     z-index: 1;
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/sixhat_background.png');
     padding-top: 230px;
     padding-left: 460px;    
+}
+.sth_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/sixhat_background.png');
+}
+.sentence_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/sentence_background.png');
+    background-position-y: -20px;
+}
+.wh_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/5w1h_background.png');
+    background-size: 1920px;
+    background-position-y: -300px;
+}
+.exag_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/exg_background.png');
+    background-size: 1920px;
+    background-position-y: -400px;
+}
+.scamper_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/metapo_background.png');
+    background-size: 1920px;
+    background-position-y: -500px;
+}
+.metapo_banner{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/scamper_background.png');
+    background-size: 1920px;
+    background-position-y: -200px;
 }
 #header p{
     display: flex;
@@ -52,10 +78,11 @@ h1{
 }
 #content p{
     font-size: 21px;
+    line-height: 40px;
 }
 #menu{
     background-color: white;
-    width: 500px;
+    width: 400px;
     height: 100%;
     color: rgba(0, 0, 0, 0.4);
     position:fixed;

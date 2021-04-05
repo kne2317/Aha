@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/Common.css" rel="stylesheet" type="text/css" />
+    <link href="css/content.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+
+    <title>Aha - Make Sentences</title>
+    <script>
+        $(document).ready(function(){
+			$('#header,#menu').hover(function(){
+				$('#menu').slideDown('fast')
+			});
+            $('#content').not('#menu').hover(function(){
+				$('#menu').slideUp('fast')
+			});
+		});
+
+    </script>
+</head>
+<body>
+    <div id="header" class="scamper_banner">
+        <p>SCAMPER</p>
+    </div>
+    <div id="content">
+
+        <div>
+            <h1>SCAMPER</h1>
+            <p>
+                일단 임의의 단어를 선택한다. <br>
+                그리고 10분간 그 단어를 사용한 문장들을 최대한 길게 작성해본다. <br>
+                <br>
+                시간이 지나면, 그 문장들을 트리거로 얼토당토않은 아이디어를 뽑아내고 <br>
+                그 아이디어를 바탕으로 feasible한 솔루션을 생각본다.
+            </p>
+        </div>
+        
+    </div>
+
+    <div id="menu">
+        <a href="index.html" ><img src="img/logo.png" id="logo" width="175px"></a>
+        <ul>
+            <li><a href="SixThinkingHat.html">Six Thinking Hat</a></li>
+            <li><a href="Make_Sentences.html">Make Sentences</a></li>
+            <li><a href="5W1H.html">5W1H</a></li>
+            <li><a href="SCAMPER.html">SCAMPER</a></li>
+            <li><a href="Metapo.html">Metapo</a></li>
+            <li><a href="Exaggerate.html">Exaggerate</a></li>
+        </ul>
+    </div>
+    <div id="nav_bar">
+        <a href="#"><img src="img/icon_mypage.png" height="32px"></a>
+        <a href="#"><img src="img/icon_memo.png" width="40px"></a>
+        <a href="#"><img src="img/icon_mindmap.png"  height="35.06px"></a>
+    </div>
+    
+</body>
+</html>

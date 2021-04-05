@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/Common.css" rel="stylesheet" type="text/css" />
+    <link href="css/content.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+
+    <title>Aha - Make Sentences</title>
+    <script>
+        $(document).ready(function(){
+			$('#header,#menu').hover(function(){
+				$('#menu').slideDown('fast')
+			});
+            $('#content').not('#menu').hover(function(){
+				$('#menu').slideUp('fast')
+			});
+		});
+
+    </script>
+</head>
+<body>
+    <div id="header" class="metapo_banner">
+        <p>Metapo</p>
+    </div>
+    <div id="content">
+
+        <div>
+            <h1>메타포 활용하기</h1>
+            <p>
+                아이디어와 연관 없어 보이는 것들로 은유적 생각을 해본다. 예를 들어 냉장고와 고양이의 공통점? 이라면 <br>
+                둘 다 생선을 속에 넣고, 둘 다 꼬리가 있고, 둘 다 그르렁 거리고 둘 다 다양한 색이 있으며, 둘 다 수명이 15년 정도... <br>
+                공통점을 찾는 방법으로 생각을 확장시킬 수 있다. 우리는 낯선 것들을 이해할 때 이미 알고 있는 것들과 비교한다.<br>
+                <br>
+                최초의 자동차는 '말없는 마차 (horseless carriages)'라고 불렸고 초기 기차들은 '철마 (iron horses)'라고 불렸다. <br>
+                은유(Metaphor)는 여러 문제나 상황에 새로운 영감을 줄 수 있다. 현재 이슈에 대해 어떤 metaphor를 만들 수 있을까? <br>
+                라는 질문을 해보자.
+            </p>
+        </div>
+        
+    </div>
+
+    <div id="menu">
+        <a href="index.html" ><img src="img/logo.png" id="logo" width="175px"></a>
+        <ul>
+            <li><a href="SixThinkingHat.html">Six Thinking Hat</a></li>
+            <li><a href="Make_Sentences.html">Make Sentences</a></li>
+            <li><a href="5W1H.html">5W1H</a></li>
+            <li><a href="SCAMPER.html">SCAMPER</a></li>
+            <li><a href="Metapo.html">Metapo</a></li>
+            <li><a href="Exaggerate.html">Exaggerate</a></li>
+        </ul>
+    </div>
+    <div id="nav_bar">
+        <a href="#"><img src="img/icon_mypage.png" height="32px"></a>
+        <a href="#"><img src="img/icon_memo.png" width="40px"></a>
+        <a href="#"><img src="img/icon_mindmap.png"  height="35.06px"></a>
+    </div>
+    
+</body>
+</html>
